@@ -26,4 +26,6 @@ Additional information about the outlier detection algorithm and its implementat
 ## Credits
 Our work is based on the study by Shi & Horvath (2006), **Unsupervised Learning with Random Forest Predictors**, though with a few modifications that are necessary to optimaly detect outliers on galaxy spectra.
 
-
+## Future
+Outlier detection on large datasets is an important tool for detection of unknown unknowns, which are objects you did not know that you should be looking for. These objects can be new sources of noise in a survey, or more importantly, completely new objects that represent new physical phenomena.
+We therefore plan to test this algorithm on different datasets (images, light-curves, radio, etc) and develop new tools and algorithms that are optimal for each of these datasets.
