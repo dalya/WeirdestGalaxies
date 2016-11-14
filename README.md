@@ -1,11 +1,11 @@
 # Outlier Detection Algorithm on Galaxy Spectra
 
-This reporisoty contains the basic outlier detection algorithm that we use to find the weirdest galaxies in the Sloan Digital Sky Survey (SDSS). 
-We use unsupervised Random Forest (RF) algorithm to assign a similarity measure (or distance) between every pair of galaxy spectra in the SDSS. We then use the distance matrix to find the galaxies that have the largest distance, on average, from the rest of the galaxies in the sample, and define them as outliers.
+This repository contains the basic outlier detection algorithm that we used to find the weirdest galaxies in the Sloan Digital Sky Survey (SDSS). 
+We used unsupervised Random Forest (RF) algorithm to assign a similarity measure (or distance) between every pair of galaxy spectra in the SDSS. We then used the distance matrix to find the galaxies that have the largest distance, on average, from the rest of the galaxies in the sample, and defined them as outliers.
 
 The repository contains an iPython notebook with step-by-step instructions to detect outliers on simulated, 2D, data. If you have trouble constructing your input data on which to perform outlier detection, please let us know (dalyabaron@gmail.com) and we will help!
 
-## Authours
+## Authors
 * Dalya Baron (TAU)
 * Dovi Poznanski (TAU)
 
@@ -15,7 +15,7 @@ The code requires the following packages:
 * numpy 1.11.1
 * matplotlib 1.5.3
 * scikit-learn 0.17.1
-* (In the future: a developnemt version of scikit-learn will be necessary to run some of the algorithms)
+* (In the future: a development version of scikit-learn will be necessary to run some of the algorithms)
 
 ## Weirdest SDSS Galaxies
 Additional information about the outlier detection algorithm and its implementation on SDSS galaxy spectra:
@@ -25,7 +25,3 @@ Additional information about the outlier detection algorithm and its implementat
 
 ## Credits
 Our work is based on the study by Shi & Horvath (2006), **Unsupervised Learning with Random Forest Predictors**, though with a few modifications that are necessary to optimaly detect outliers on galaxy spectra.
-
-## Future
-Outlier detection on large datasets is an important tool for detection of unknown unknowns, which are objects you did not know that you should be looking for. These objects can be new sources of noise in a survey, or more importantly, completely new objects that represent new physical phenomena.
-We therefore plan to test this algorithm on different datasets (images, light-curves, radio, etc) and develop new tools and algorithms that are optimal for each of these datasets.
