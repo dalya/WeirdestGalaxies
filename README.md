@@ -20,7 +20,7 @@ The code requires the following packages:
 ## Weirdest SDSS Galaxies
 Additional information about the outlier detection algorithm and its implementation on SDSS galaxy spectra:
 * Associated paper in MNRAS: (insert link here)
-* The weirdness score of ~2.5M SDSS galaxies: http://wise-obs.tau.ac.il/cgi-bin/dovip/weird_galaxies.cgi. Here you can get the weirdness score of your favourite galaxy or use the *I'm feeling lucky* option to browse a random galaxies from the top 4000 weirdest SDSS galaxies.
+* The weirdness score of ~2.5M SDSS galaxies: http://wise-obs.tau.ac.il/cgi-bin/dovip/weird_galaxies.cgi. Here you can get the weirdness score of your favourite galaxy or use the *I'm feeling lucky* option to browse a random galaxy from the top 4000 weirdest galaxies.
 * A short description about the algorithm: http://wise-obs.tau.ac.il/~dovip/weird-galaxies/about.html
 
 ## Credits
